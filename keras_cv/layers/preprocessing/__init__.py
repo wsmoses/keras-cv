@@ -16,8 +16,6 @@
 # image KPLs from one place.
 
 from keras.layers import CenterCrop
-from keras.layers import RandomHeight
-from keras.layers import RandomWidth
 
 from keras_cv.layers.preprocessing.aug_mix import AugMix
 from keras_cv.layers.preprocessing.auto_contrast import AutoContrast

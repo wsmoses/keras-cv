@@ -13,8 +13,6 @@
 # limitations under the License.
 
 from keras.layers import CenterCrop
-from keras.layers import RandomHeight
-from keras.layers import RandomWidth
 
 from keras_cv.layers.augmenter import Augmenter
 from keras_cv.layers.feature_pyramid import FeaturePyramid
