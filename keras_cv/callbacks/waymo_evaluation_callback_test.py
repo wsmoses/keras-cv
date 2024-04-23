@@ -15,7 +15,7 @@
 import numpy as np
 import pytest
 import tensorflow as tf
-from tensorflow import keras
+import keras
 
 from keras_cv.callbacks import WaymoEvaluationCallback
 from keras_cv.tests.test_case import TestCase

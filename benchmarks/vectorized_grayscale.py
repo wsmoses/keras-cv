@@ -16,7 +16,7 @@ import time
 
 import matplotlib.pyplot as plt
 import tensorflow as tf
-from tensorflow import keras
+import keras
 
 from keras_cv.layers import Grayscale
 from keras_cv.layers.preprocessing.base_image_augmentation_layer import (

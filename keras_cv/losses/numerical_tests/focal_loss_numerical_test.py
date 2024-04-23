@@ -15,7 +15,7 @@
 import numpy as np
 import tensorflow as tf
 from absl.testing import parameterized
-from tensorflow import keras
+import keras
 
 from keras_cv.backend import ops
 from keras_cv.losses import FocalLoss

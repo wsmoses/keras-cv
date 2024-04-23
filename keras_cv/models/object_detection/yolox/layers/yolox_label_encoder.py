@@ -14,7 +14,7 @@
 
 
 import tensorflow as tf
-from tensorflow.keras import layers
+from keras import layers
 
 from keras_cv import bounding_box
 

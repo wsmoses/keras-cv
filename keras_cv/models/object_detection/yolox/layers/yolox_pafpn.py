@@ -13,7 +13,7 @@
 # limitations under the License.
 
 
-from tensorflow import keras
+import keras
 
 from keras_cv.models.backbones.csp_darknet.csp_darknet_utils import (
     CrossStagePartial,

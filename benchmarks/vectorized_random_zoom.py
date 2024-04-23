@@ -18,7 +18,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import tensorflow as tf
 from keras import backend
-from tensorflow import keras
+import keras
 
 from keras_cv.layers import RandomZoom
 from keras_cv.layers.preprocessing.base_image_augmentation_layer import (

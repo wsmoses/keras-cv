@@ -16,7 +16,7 @@
 import matplotlib.pyplot as plt
 import tensorflow as tf
 import tensorflow_datasets as tfds
-from tensorflow import keras
+import keras
 
 
 def resize(image, label, img_size=(224, 224), num_classes=10):

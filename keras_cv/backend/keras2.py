@@ -14,8 +14,8 @@
 
 import types
 
-from tensorflow import keras  # noqa: F403, F401
-from tensorflow.keras import *  # noqa: F403, F401
+import keras  # noqa: F403, F401
+from keras import *  # noqa: F403, F401
 
 from keras_cv.backend import config  # noqa: F403, F401
 

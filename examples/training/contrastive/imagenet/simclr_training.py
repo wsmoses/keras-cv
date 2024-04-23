@@ -16,11 +16,11 @@ import sys
 
 import tensorflow as tf
 from absl import flags
-from tensorflow import keras
-from tensorflow.keras import callbacks
-from tensorflow.keras import layers
-from tensorflow.keras import metrics
-from tensorflow.keras import optimizers
+import keras
+from keras import callbacks
+from keras import layers
+from keras import metrics
+from keras import optimizers
 
 from keras_cv import losses
 from keras_cv import models

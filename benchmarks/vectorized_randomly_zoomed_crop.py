@@ -16,7 +16,7 @@ import time
 import matplotlib.pyplot as plt
 import numpy as np
 import tensorflow as tf
-from tensorflow import keras
+import keras
 
 from keras_cv import core
 from keras_cv.layers import RandomlyZoomedCrop

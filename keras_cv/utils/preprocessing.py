@@ -13,8 +13,8 @@
 # limitations under the License.
 
 import tensorflow as tf
-from tensorflow import keras
-from tensorflow.keras import backend
+import keras
+from keras import backend
 
 from keras_cv import core
 from keras_cv.backend import ops

@@ -18,7 +18,7 @@ import unittest
 import matplotlib.pyplot as plt
 import numpy as np
 import tensorflow as tf
-from tensorflow import keras
+import keras
 
 from keras_cv import bounding_box
 from keras_cv.layers import RandomCrop

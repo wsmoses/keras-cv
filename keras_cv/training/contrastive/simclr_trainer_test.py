@@ -14,9 +14,9 @@
 
 import pytest
 import tensorflow as tf
-from tensorflow import keras
-from tensorflow.keras import layers
-from tensorflow.keras import optimizers
+import keras
+from keras import layers
+from keras import optimizers
 
 from keras_cv.losses import SimCLRLoss
 from keras_cv.models import ResNet50V2Backbone

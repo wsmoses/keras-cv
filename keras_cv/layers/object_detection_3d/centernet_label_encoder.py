@@ -19,7 +19,7 @@ from typing import Union
 
 import numpy as np
 import tensorflow as tf
-from tensorflow import keras
+import keras
 
 from keras_cv.api_export import keras_cv_export
 from keras_cv.backend import ops

@@ -45,7 +45,7 @@ import xml
 import numpy as np
 import tensorflow as tf
 import tensorflow_datasets as tfds
-from tensorflow import keras
+import keras
 
 from keras_cv.api_export import keras_cv_export
 

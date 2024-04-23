@@ -17,7 +17,7 @@ import types
 
 import numpy as np
 import tensorflow as tf
-import tensorflow.keras as keras
+import keras as keras
 
 from keras_cv import bounding_box
 from keras_cv.api_export import keras_cv_export

@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 import tensorflow as tf
-from tensorflow.keras.callbacks import Callback
+from keras.callbacks import Callback
 
 from keras_cv.api_export import keras_cv_export
 from keras_cv.bounding_box_3d import CENTER_XYZ_DXDYDZ_PHI

@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from tensorflow import keras
+import keras
 
 from keras_cv.api_export import keras_cv_export
 

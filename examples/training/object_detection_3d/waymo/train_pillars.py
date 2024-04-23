@@ -24,7 +24,7 @@ detection task for detecting cars and pedestrians for an autonomous vehicle.
 """
 
 import tensorflow as tf
-from tensorflow import keras
+import keras
 
 import keras_cv
 from keras_cv.callbacks import WaymoEvaluationCallback
